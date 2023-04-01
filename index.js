@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import router from './routers/user-route';
 import carsRouter from './routers/car-route';
-var cors = require('cors')
+import cors from 'cors'
 
 const app = express();
 app.use(cors()) 
